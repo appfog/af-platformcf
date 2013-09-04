@@ -1,0 +1,14 @@
+#content_wrapper { width: 500px; height: 720px; background-color: white; margin: 40px auto; position: relative; box-shadow: 0 0 12px gray; overflow: hidden; }
+#heading { color: #388AB1; font-family: 'Pontano Sans', sans-serif; font-size:0.9em; padding:0 10px; position:absolute; width: 480px; margin-top:25px; text-align:center; line-height:1.8em; z-index:100;}
+#clouds_white { position: absolute; top: 90px; left: -40px; z-index: 4; }
+#clouds_dark_blue { position: absolute; top:0; left: -50px; z-index: 3; }
+#clouds_blue { position: absolute; top:0; left: -50px; z-index: 2; }
+#content { position: absolute; left:0px; top: 270px; width: 450px; padding: 0 25px; font-family: sans-serif; z-index: 10; }
+#content > img { bottom:0; top: 0; width: 440px; z-index:100; }
+#content h1 { text-align: center; }
+p { margin: 2px 0 0 0; }
+.credit { margin-top: 20px; }
+.appname { text-align: center; }
+.tagline { font-size:0.59em; }
+
+
