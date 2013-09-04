@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra'
-set :protection, except: :ip_spoofing
+
+set :protection, :except => :ip_spoofing
 
 get '/' do
   erb :index
